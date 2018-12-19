@@ -1,7 +1,5 @@
 package guru.springframework.sfgpetclinic.model;
 
-import javax.persistence.Column;
-
 /**
  * Created by jt on 7/13/18.
  */
@@ -18,10 +16,10 @@ public class Person extends BaseEntity {
         this.lastName = lastName;
     }*/
 
-    @Column(name = "first_name")
+    //@Column(name = "first_name")
     private String firstName;
 
-    @Column(name = "last_name")
+    //@Column(name = "last_name")
     private String lastName;
 
 }
